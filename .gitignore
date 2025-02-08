@@ -1,0 +1,21 @@
+# Node.js 관련
+node_modules
+dist
+pnpm-lock.yaml
+
+# 환경변수 파일
+.env
+apps/*/.env
+
+# 빌드 결과물
+apps/*/dist
+apps/*/build
+apps/*/.turbo
+apps/*/.next
+apps/*/.cache
+
+# IDE 설정 파일
+.vscode
+.idea
+*.log
+.DS_Store

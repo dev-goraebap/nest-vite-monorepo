@@ -1,0 +1,12 @@
+{
+  "name": "nest-lit-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter=web --filter=api run dev",
+    "build": "pnpm --filter=api --filter=web run build",
+    "api:dev": "pnpm --filter=api run dev",
+    "api:build": "pnpm --filter=api run build",
+    "web:dev": "pnpm --filter=api run dev",
+    "web:build": "pnpm --filter=api run build"
+  }
+}
